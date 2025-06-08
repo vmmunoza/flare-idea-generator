@@ -145,6 +145,6 @@ MIT License - feel free to use this for educational and commercial purposes.
 
 - [Flare Network](https://flare.network)
 - [Flare Documentation](https://docs.flare.network)
-- [FTSO Documentation](https://docs.flare.network/ftso)
-- [FDC Documentation](https://docs.flare.network/attestation)
-- [FAssets Documentation](https://docs.flare.network/fassets)
+- [FTSO Documentation](https://dev.flare.network/ftso/overview)
+- [FDC Documentation](https://dev.flare.network/fdc/overview)
+- [FAssets Documentation](https://dev.flare.network/fassets/overview)
