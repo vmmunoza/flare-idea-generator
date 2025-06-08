@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flare Idea Generator (FIG)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo-section">
+                <i class="fas fa-bolt logo-icon"></i>
+                <h1 class="main-title">Flare Idea Generator</h1>
+            </div>
+            <p class="subtitle">Discover what to build on Flare.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Generate Button -->
+            <div class="action-section">
+                <button id="generateBtn" class="generate-btn">
+                    <i class="fas fa-lightbulb"></i>
+                    Generate Idea
+                </button>
+            </div>
+
+            <!-- Idea Card Container -->
+            <div id="ideaContainer" class="idea-container">
+                <div class="welcome-card">
+                    <div class="welcome-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Ready to innovate?</h3>
+                    <p>Click "Generate Idea" to discover your next blockchain project on the Flare Network.</p>
+                </div>
+            </div>
+
+            <!-- Placeholder for future architecture button -->
+            <div id="architecturePlaceholder" class="architecture-placeholder" style="display: none;">
+                <button id="viewArchitectureBtn" class="architecture-btn">
+                    <i class="fas fa-sitemap"></i>
+                    View Architecture
+                </button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>
+                    <i class="fas fa-book"></i>
+                    Learn more at 
+                    <a href="https://docs.flare.network" target="_blank" rel="noopener noreferrer">
+                        Flare Developer Documentation
+                    </a>
+                </p>
+                <div class="footer-links">
+                    <a href="https://flare.network" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-globe"></i>
+                        Flare Network
+                    </a>
+                    <a href="https://github.com/flare-foundation" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
