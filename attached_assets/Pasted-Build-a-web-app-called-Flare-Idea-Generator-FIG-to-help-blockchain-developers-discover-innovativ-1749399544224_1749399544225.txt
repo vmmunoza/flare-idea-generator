@@ -1,0 +1,147 @@
+Build a web app called “Flare Idea Generator (FIG)” to help blockchain developers discover innovative dApp ideas that can be built on the Flare Network. The site should be lightweight, fast, and developer-friendly, using only frontend technologies to start (HTML, CSS, and JavaScript). It will show a new project idea every time the user clicks a “Generate Idea” button.
+
+Each idea card should include:
+- A project title
+- A short, clear description
+- Relevant Flare features (e.g., FTSO, FDC, FAssets)
+- A link to relevant documentation or example
+
+Add 20 different predefined idea entries in a JSON format embedded into the frontend. The ideas must be original, varied, and each clearly demonstrate how to use at least one Flare feature (FDC, FTSO, or FAssets).
+
+Basic layout:
+- A dark theme with a bold “Flare Idea Generator” title
+- A call-to-action subtitle: “Discover what to build on Flare.”
+- One main button: “Generate Idea”
+- A card layout below showing the selected idea
+- A footer with a link to Flare dev docs
+
+Stack:
+- HTML for structure
+- CSS for styling (responsive, dark mode)
+- JavaScript for logic and dynamic content
+
+Bonus: include a placeholder div to later add a “View Architecture” button in future updates (don’t build the diagram now, just leave the hook in HTML and JS).
+
+Below are the 20 app ideas to embed in the project:
+[
+  {
+    "title": "NFT Marketplace with Dynamic Pricing",
+    "description": "Create an NFT marketplace that uses FTSO price feeds to dynamically price NFTs in USD equivalent.",
+    "features": ["FTSO"],
+    "link": "https://docs.flare.network/ftso"
+  },
+  {
+    "title": "Gasless Twitter Reputation Verifier",
+    "description": "A dApp that uses FDC to attest if a user owns a verified Twitter account without requiring gas.",
+    "features": ["FDC", "Attestation"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Web2 Leaderboard Integrity Tracker",
+    "description": "Verify public gaming leaderboards using FDC to attest scores from Web2 APIs.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Stablecoin Vault with Asset Monitoring",
+    "description": "A smart contract that lets users deposit stablecoins with conditions based on real-time FTSO prices.",
+    "features": ["FTSO", "Smart Contracts"],
+    "link": "https://docs.flare.network/ftso"
+  },
+  {
+    "title": "Decentralized Subscription Tracker",
+    "description": "Use FDC to verify Web2 payment receipts (e.g., Spotify, Netflix) and unlock access to Web3 tokens.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Cross-Chain Lending Dashboard",
+    "description": "Display live collateral-to-loan ratios using FTSO across different chains for user assets.",
+    "features": ["FTSO", "Cross-chain"],
+    "link": "https://docs.flare.network/ftso"
+  },
+  {
+    "title": "Decentralized GitHub Contributions Tracker",
+    "description": "Use FDC to attest contribution stats from GitHub and tokenize developer reputation.",
+    "features": ["FDC", "Attestation"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "DAO Spending Monitor",
+    "description": "Automatically release funds to DAO proposals if FDC attests external KPIs (e.g., Twitter follower growth).",
+    "features": ["FDC", "Smart Contracts"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Carbon Credit Verifier",
+    "description": "Validate carbon offset purchases using FDC to fetch certificates from authorized Web2 APIs.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "NFT Rarity Oracle",
+    "description": "Integrate FTSO to fetch rarity indexes from external APIs and use them to auto-score NFTs.",
+    "features": ["FTSO", "IPFS"],
+    "link": "https://docs.flare.network/ftso"
+  },
+  {
+    "title": "Decentralized Insurance Payout System",
+    "description": "Trigger insurance payouts based on FDC attestations from weather or logistics APIs.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Attested Online Learning Certificate",
+    "description": "Verify course completion via FDC from platforms like Coursera and mint NFTs as certificates.",
+    "features": ["FDC", "NFT"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Social Proof-of-Engagement App",
+    "description": "Use FDC to confirm user engagement across platforms (likes, comments) for token rewards.",
+    "features": ["FDC", "Web2 Integration"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Cross-Border P2P Payment Validator",
+    "description": "Use FAssets for stablecoin transfer and FTSO for exchange rate validation in real time.",
+    "features": ["FAssets", "FTSO"],
+    "link": "https://docs.flare.network/fassets"
+  },
+  {
+    "title": "Proof-of-News Source",
+    "description": "Fetch and attest the original source of news articles using FDC for media transparency.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Tokenized Talent Marketplace",
+    "description": "Verify freelance experience with GitHub or Upwork via FDC and issue tokens based on merit.",
+    "features": ["FDC", "Token Gating"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "NFT Rental Protocol",
+    "description": "Let users rent NFTs and use FAssets to collateralize them during the rental period.",
+    "features": ["FAssets", "Smart Contracts"],
+    "link": "https://docs.flare.network/fassets"
+  },
+  {
+    "title": "Podcast Indexing & Verification Tool",
+    "description": "Attest podcast uploads and metadata from Apple/Spotify APIs using FDC.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  },
+  {
+    "title": "Sports Betting Oracle",
+    "description": "Use FDC to fetch real-time game scores and FTSO to provide odds for decentralized betting.",
+    "features": ["FDC", "FTSO"],
+    "link": "https://docs.flare.network"
+  },
+  {
+    "title": "YouTube View Token Gating",
+    "description": "Use FDC to attest YouTube view counts to unlock gated token rewards.",
+    "features": ["FDC"],
+    "link": "https://docs.flare.network/attestation"
+  }
+]
