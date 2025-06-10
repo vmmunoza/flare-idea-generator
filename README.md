@@ -16,7 +16,7 @@ A lightweight web application that helps blockchain developers discover innovati
 Each project idea showcases different Flare Network features:
 - **FTSO (Flare Time Series Oracle)**: Real-time price feeds
 - **FDC (Flare Data Connector)**: External data attestations
-- **FAssets**: Cross-chain asset management
+- **FAssets**: Cross-chain assets
 
 ## Quick Start
 
@@ -34,61 +34,6 @@ flare-idea-generator/
 ├── script.js           # Application logic and project data
 └── README.md           # This file
 ```
-
-## Free Deployment on Vercel
-
-### Option 1: GitHub + Vercel (Recommended)
-
-1. **Create GitHub Repository**:
-   ```bash
-   # Create a new repository on GitHub
-   # Then clone it locally
-   git clone https://github.com/yourusername/flare-idea-generator.git
-   cd flare-idea-generator
-   ```
-
-2. **Add Your Files**:
-   - Copy `index.html`, `styles.css`, `script.js`, and `README.md` to the repository
-   - Commit and push:
-   ```bash
-   git add .
-   git commit -m "Initial commit: Flare Idea Generator"
-   git push origin main
-   ```
-
-3. **Deploy with Vercel**:
-   - Go to [vercel.com](https://vercel.com)
-   - Sign up/login with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Click "Deploy" (no configuration needed for static sites)
-   - Your app will be live at `https://your-project-name.vercel.app`
-
-### Option 2: Direct Upload to Vercel
-
-1. **Prepare Files**:
-   - Download all files: `index.html`, `styles.css`, `script.js`
-   - Create a folder called `flare-idea-generator`
-   - Place all files in this folder
-
-2. **Deploy**:
-   - Go to [vercel.com](https://vercel.com)
-   - Sign up for free account
-   - Drag and drop your folder to Vercel dashboard
-   - Your app will be deployed instantly
-
-### Option 3: Other Free Hosting Platforms
-
-**GitHub Pages**:
-1. Create GitHub repository with your files
-2. Go to repository Settings > Pages
-3. Select source branch (main)
-4. Your app will be available at `https://yourusername.github.io/repository-name`
-
-**Netlify**:
-1. Go to [netlify.com](https://netlify.com)
-2. Drag and drop your folder
-3. Get instant deployment
 
 ## Development
 
@@ -114,13 +59,13 @@ The generator includes ideas across multiple categories:
 - **Social**: Content moderation, engagement tracking
 - **Developer Tools**: Code quality, testing, monitoring
 
-## Technology Stack
+## Stack
 
 - **Frontend**: Vanilla HTML, CSS, JavaScript
 - **Styling**: CSS Grid, Flexbox, CSS Variables
 - **Icons**: Font Awesome
 - **Fonts**: Google Fonts (Inter)
-- **Architecture**: Static site (no backend required)
+- **Architecture**: Static site (no backend required for now)
 
 ## Browser Support
 
